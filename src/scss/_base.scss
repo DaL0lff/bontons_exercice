@@ -4,6 +4,17 @@
   padding: 0;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,200..800;1,200..800&display=swap");
+@import "bootstrap/scss/bootstrap-grid";
+
+:root {
+  --color-pink: #faa8a8;
+  --color-white: #fff;
+  --color-light-gray: #928c8c;
+  --color-dark-gray: #161a1c;
+  --color-old-pink: #ebdcdc;
+}
+
 a {
   color: inherit;
 }
@@ -11,4 +22,8 @@ a {
 img,
 video {
   display: block;
+}
+
+section {
+  margin-bottom: 50px;
 }
