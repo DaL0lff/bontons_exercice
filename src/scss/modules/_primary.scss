@@ -1,0 +1,17 @@
+.primary {
+  --pink: #faa8a8;
+  --white: #fff;
+}
+
+.primary-default {
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: var(--pink);
+  border: 1px solid var(--white);
+}
+
+.primary-default:hover {
+  background: var(--white);
+  color: var(--pink);
+  border: 1px solid var(--pink);
+}

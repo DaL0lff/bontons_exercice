@@ -1,0 +1,14 @@
+.secondary {
+  --white: #fff;
+  --light-gray: #928c8c;
+  --dark-gray: #161a1c;
+}
+.secondary-default {
+  padding: 8px 12px;
+  background-color: var(--white);
+  border: 1px solid var(--dark-gray);
+}
+.secondary:hover {
+  color: var(--light-gray);
+  border: 1px solid var(--light-gray);
+}
